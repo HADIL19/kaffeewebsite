@@ -1,19 +1,20 @@
-function Header(){
+import React from 'react';
+import './index.css'; // Import the CSS file
 
-    return(
-        <header>
-   <h1>My website</h1>
-   <nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-   </nav>
-   <hr></hr>
-        </header>
-    );
+function Header() {
+  return (
+    <header className="header">
+      <h1>My Website</h1>
+      <nav>
+        <ul className="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
 
 export default Header;

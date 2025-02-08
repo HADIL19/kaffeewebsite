@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Coffee } from 'lucide-react';
+import './index.css'
 
 export default function Kaffee() {
   const Kaffee1 = "Aroma";
@@ -11,22 +12,26 @@ export default function Kaffee() {
   ]);
 
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
-      <h2 className="text-3xl font-semibold text-center mb-6">Our Coffee Selection</h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+    <div className="coffee-container min-h-screen p-8">
+      <h2 className="coffee-title text-4xl font-semibold text-center mb-12">Our Coffee Selection</h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {coffees.map((coffee, index) => (
-          <div key={index} className="p-4 bg-white shadow-lg rounded-lg text-center">
-            <Coffee className="text-gray-600 mx-auto mb-2" size={32} />
-            <h3 className="text-xl font-bold">{coffee.name}</h3>
-            <p className="text-gray-600 mt-2">{coffee.description}</p>
-            <p className="text-gray-700 font-semibold mt-2">{coffee.price}</p>
+          <div key={index} className="coffee-card p-6 rounded-lg text-center">
+            <Coffee className="coffee-icon mx-auto mb-4" size={40} />
+            <h3 className="text-2xl font-bold mb-3 text-coffee-accent">{coffee.name}</h3>
+            <p className="coffee-description mb-4">{coffee.description}</p>
+            <span className="price-tag">{coffee.price}</span>
           </div>
         ))}
       </div>
-      <img src="/api/placeholder/400/320" alt="Coffee" className="mt-6 mx-auto w-64 rounded-lg shadow-lg" />
-      <h1 className="text-center text-2xl font-bold mt-4">Kaffee</h1>
-      <p className="text-center text-gray-700">Der Kaffee ist fertig!</p>
-      <ul className="list-disc list-inside mt-4 text-center">
+      <img 
+        src="/api/placeholder/400/320" 
+        alt="Coffee" 
+        className="mt-12 mx-auto w-72 rounded-lg shadow-xl object-cover border-2 border-coffee-accent"
+      />
+      <h1 className="coffee-title text-center text-3xl font-bold mt-8">Kaffee</h1>
+      <p className="text-center text-coffee-cream mt-3">Der Kaffee ist fertig!</p>
+      <ul className="coffee-list text-center mt-8 space-y-2">
         <li>Bonal</li>
         <li>{Kaffee1}</li>
         <li>{Kaffee2.toUpperCase()}</li>
