@@ -1,20 +1,38 @@
 import React from 'react';
-import './index.css'; // Import the CSS file
+import { Coffee } from 'lucide-react';
 
-function Header() {
+const Header = () => {
+  const navItems = [
+    { name: 'Home', href: '/' },
+    { name: 'About', href: '/about' },
+    { name: 'Services', href: '/services' },
+    { name: 'Contact', href: '/contact' }
+  ];
+
   return (
-    <header className="header">
-      <h1>My Website</h1>
-      <nav>
-        <ul className="navbar">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+    <header>
+      <div className="container">
+        <nav>
+          {/* Logo and Title */}
+          <div className="logo-container">
+            <Coffee className="logo-icon" />
+            <h1 className="logo-title">Coffee Shop</h1>
+          </div>
+
+          {/* Navigation Links */}
+          <ul className="nav-list">
+            {navItems.map((item) => (
+              <li key={item.name}>
+                <a href={item.href} className="nav-link">
+                  {item.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
     </header>
   );
-}
+};
 
 export default Header;
