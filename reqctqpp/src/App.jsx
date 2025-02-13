@@ -1,7 +1,7 @@
 import Header from './Header.jsx';
 import Footer from './footer.jsx';
 import Kaffee from './kaffee.jsx';
-import React from 'react';
+
 import './index.css'
 
 function App() {
