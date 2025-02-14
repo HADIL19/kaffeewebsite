@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Coffee } from 'lucide-react';
 import './index.css'
 
 export default function Kaffee() {
-  const Kaffee1 = "Aroma";
-  const Kaffee2 = "Geschmack";
+
   const [coffees] = useState([
     { name: "Espresso", description: "Strong and bold coffee.", price: "$2.50" },
     { name: "Latte", description: "Smooth and creamy.", price: "$3.50" },
@@ -24,19 +23,9 @@ export default function Kaffee() {
           </div>
         ))}
       </div>
-      <img 
-        src="/api/placeholder/400/320" 
-        alt="Coffee" 
-        className="mt-12 mx-auto w-72 rounded-lg shadow-xl object-cover border-2 border-coffee-accent"
-      />
+
       <h1 className="coffee-title text-center text-3xl font-bold mt-8">Kaffee</h1>
       <p className="text-center text-coffee-cream mt-3">Der Kaffee ist fertig!</p>
-      <ul className="coffee-list text-center mt-8 space-y-2">
-        <li>Bonal</li>
-        <li>{Kaffee1}</li>
-        <li>{Kaffee2.toUpperCase()}</li>
-        <li>1001</li>
-      </ul>
     </div>
   );
 }
