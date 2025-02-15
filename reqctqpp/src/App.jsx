@@ -1,25 +1,23 @@
-import Header from './Header.jsx';
-import Footer from './footer.jsx';
-import Kaffee from './kaffee.jsx';
-
-import './index.css'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./Header.jsx";
+import Footer from "./footer.jsx";
+import Kaffee from "./kaffee.jsx";
+import Home from "./home.jsx";
+import "./index.css";
 
 function App() {
-  return(
-   <div>
-     <Header/>
-  
-    <main class="container">
-  <h2>Welcome to our Coffee Shop</h2>
-  <p>Start exploring our delicious coffee selection!</p>
-
-      <Kaffee/>
-        <Footer/>
-    </main>
-    </div>
-
-
-  )
+  return (
+    <Router>
+      <Header />
+      <main className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Kaffee />} />
+        </Routes>
+      </main>
+      <Footer />
+    </Router>
+  );
 }
 
-export default App
+export default App;

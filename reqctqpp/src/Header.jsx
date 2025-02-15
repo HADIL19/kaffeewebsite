@@ -1,14 +1,7 @@
-import React from 'react';
-import { Coffee } from 'lucide-react';
+import { Coffee } from "lucide-react";
+import { Link } from "react-router-dom"; // Import Link for navigation
 
 const Header = () => {
-  const navItems = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Services', href: '/services' },
-    { name: 'Contact', href: '/contact' }
-  ];
-
   return (
     <header>
       <div className="container">
@@ -21,13 +14,21 @@ const Header = () => {
 
           {/* Navigation Links */}
           <ul className="nav-list">
-            {navItems.map((item) => (
-              <li key={item.name}>
-                <a href={item.href} className="nav-link">
-                  {item.name}
-                </a>
-              </li>
-            ))}
+            <li>
+              <Link to="/" className="nav-link">Home</Link>
+            </li>
+            <li>
+              <Link to="/menu" className="nav-link">Coffee Menu</Link> {/* ADDED LINK */}
+            </li>
+            <li>
+              <Link to="/about" className="nav-link">About</Link>
+            </li>
+            <li>
+              <Link to="/services" className="nav-link">Services</Link>
+            </li>
+            <li>
+              <Link to="/contact" className="nav-link">Contact</Link>
+            </li>
           </ul>
         </nav>
       </div>
