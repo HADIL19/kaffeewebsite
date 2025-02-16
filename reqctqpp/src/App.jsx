@@ -3,6 +3,7 @@ import Header from "./Header.jsx";
 import Footer from "./footer.jsx";
 import Kaffee from "./kaffee.jsx";
 import Home from "./home.jsx";
+import Services from "./services.jsx";
 import "./index.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Kaffee />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
       </main>
       <Footer />

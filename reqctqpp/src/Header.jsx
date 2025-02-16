@@ -21,11 +21,12 @@ const Header = () => {
               <Link to="/menu" className="nav-link">Coffee Menu</Link> {/* ADDED LINK */}
             </li>
             <li>
-              <Link to="/about" className="nav-link">About</Link>
-            </li>
-            <li>
               <Link to="/services" className="nav-link">Services</Link>
             </li>
+            <li>
+              <Link to="/about" className="nav-link">About</Link>
+            </li>
+           
             <li>
               <Link to="/contact" className="nav-link">Contact</Link>
             </li>

@@ -7,7 +7,9 @@ export default function Kaffee() {
   const [coffees] = useState([
     { name: "Espresso", description: "Strong and bold coffee.", price: "$2.50" },
     { name: "Latte", description: "Smooth and creamy.", price: "$3.50" },
-    { name: "Cappuccino", description: "Rich with a foamy top.", price: "$3.00" }
+    { name: "Cappuccino", description: "Rich with a foamy top.", price: "$3.00" },
+    { name: "Mocha", description: "Chocolatey and sweet.", price: "$4.00" }
+
   ]);
 
   return (
