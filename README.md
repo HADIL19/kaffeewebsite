@@ -16,7 +16,7 @@ Welcome to **KaffeeWebsite**, a modern and stylish coffee shop website built wit
 ## 📸 Screenshot  
 
 
- ![Screenshot 2025-02-15 204455](https://github.com/user-attachments/assets/13434753-92bf-48fc-8bd8-b58803cb0994)
+![image](https://github.com/user-attachments/assets/17cdb090-579f-4fc9-ab2a-da243cc7f809)
 
  ![image](https://github.com/user-attachments/assets/5100ddaa-4498-4ecb-8af1-b8a189a320a9)
 
