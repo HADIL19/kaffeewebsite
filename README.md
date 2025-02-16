@@ -17,10 +17,10 @@ Welcome to **KaffeeWebsite**, a modern and stylish coffee shop website built wit
 
 
 ![image](https://github.com/user-attachments/assets/17cdb090-579f-4fc9-ab2a-da243cc7f809)
-
+ ![image](https://github.com/user-attachments/assets/004e6f32-e625-4403-8f1b-6110a50123de)
  ![image](https://github.com/user-attachments/assets/5100ddaa-4498-4ecb-8af1-b8a189a320a9)
 
- ![image](https://github.com/user-attachments/assets/004e6f32-e625-4403-8f1b-6110a50123de)
+
  
 
 
