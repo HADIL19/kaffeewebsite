@@ -23,7 +23,8 @@ export default function Kaffee() {
           </div>
         ))}
       </div>
-
+       
+         
       <h1 className="coffee-title text-center text-3xl font-bold mt-8">Kaffee</h1>
       <p className="text-center text-coffee-cream mt-3">Der Kaffee ist fertig!</p>
     </div>
