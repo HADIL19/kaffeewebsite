@@ -9,9 +9,7 @@ Welcome to **KaffeeWebsite**, a modern and stylish coffee shop website built wit
 - ⚡ **Fast Performance** – Optimized with Vite  
 - 🔥 **Smooth Animations** – Enhanced UI/UX  
 
-## 🚀 Live Demo  
 
-[🔗 View Live Website](https://hadil19.github.io/kaffeewebsite) *(if deployed on GitHub Pages or Vercel)*  
 
 ## 📸 Screenshot  
 
