@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
-import { Coffee, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="hero">
+    <section className="hero home-hero">
+
       <div className="hero-content">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}

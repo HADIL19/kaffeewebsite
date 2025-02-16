@@ -297,3 +297,7 @@ body {
     transform: translateY(0);
   }
 }
+/* ========== Home Page Background ========== */
+.home-hero {
+  background: url('https://i.ytimg.com/vi/DyJTVkRP1vY/maxresdefault.jpg') center/cover no-repeat;
+}
