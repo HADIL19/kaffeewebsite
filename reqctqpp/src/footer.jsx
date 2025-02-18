@@ -2,7 +2,7 @@
 function Footer() {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()}Made by Hadil ☕ </p>
+      <p>&copy; {new Date().getFullYear()}Made with love by Hadil ☕ </p>
     </footer>
   );
 }
