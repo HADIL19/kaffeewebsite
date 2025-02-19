@@ -50,7 +50,7 @@ export default function Services() {
           const Icon = service.icon;
           return (
             <div key={index} className="coffee-card p-6 rounded-lg text-center">
-              <Icon className="coffee-icon mx-auto mb-4" size={40} />
+              <Icon className="coffee-icon mx-auto mb-4" size={30} />
               <h3 className="text-2xl font-bold mb-3 text-coffee-accent">{service.name}</h3>
               <p className="coffee-description mb-4">{service.description}</p>
               <span className="price-tag">{service.price}</span>
