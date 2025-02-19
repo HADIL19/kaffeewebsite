@@ -25,31 +25,6 @@ Welcome to **KaffeeWebsite**, a modern and stylish coffee shop website built wit
 
  
 
-
-## 🛠 Installation & Usage  
-
-1. **Clone the repository**  
-   ```sh
-   git clone https://github.com/HADIL19/kaffeewebsite.git
-   ```
-2. **Navigate to the project folder**  
-   ```sh
-   cd kaffeewebsite
-   ```
-3. **Install dependencies**  
-   ```sh
-   npm install
-   ```
-4. **Start the development server**  
-   ```sh
-   npm run dev
-   ```
-5. **Open in browser**  
-   The app will run at:  
-   ```
-   http://localhost:5173
-   ```
-
 ## 🌇 Tech Stack  
 
 - **Frontend:** React, Tailwind CSS  
