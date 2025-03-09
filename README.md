@@ -29,7 +29,7 @@ Welcome to **KaffeeWebsite**, a modern and stylish coffee shop website built wit
 
 - **Frontend:** React, Tailwind CSS  
 - **Bundler:** Vite  
-- **Deployment:** GitHub Pages / Vercel  
+- **Deployment:** GitHub Pages 
 
 ## 🚀 Future Improvements  
 
