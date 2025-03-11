@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./Header.jsx";
-import Footer from "./footer.jsx";
-import Kaffee from "./kaffee.jsx";
-import Home from "./home.jsx";
-import Services from "./services.jsx";
+import Header from "./assets/components/Header.jsx";
+import Footer from "./assets/components/footer.jsx";
+import Kaffee from "./assets/pages/kaffee.jsx";
+import Home from "./assets/pages/home.jsx";
+import Services from "./assets/pages/Services.jsx";
 import "./App.css";
 import PropTypes from 'prop-types';
 import { useState, useEffect } from "react";
