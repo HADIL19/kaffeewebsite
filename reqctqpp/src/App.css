@@ -301,3 +301,23 @@ body {
 .home-hero {
   background: url('https://i.ytimg.com/vi/DyJTVkRP1vY/maxresdefault.jpg') center/cover no-repeat;
 }
+.card {
+  border :1px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: #4b2b10;
+  border-radius: 10px;
+  min-height: 100px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4b2b10;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 30px;
+  width: 50%;
+  margin: 10px;
+}

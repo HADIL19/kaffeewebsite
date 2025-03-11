@@ -1,6 +1,6 @@
 import  { useState } from 'react';
 import { Coffee } from 'lucide-react';
-import './index.css'
+import './App.css'
 
 export default function Kaffee() {
 
@@ -22,6 +22,7 @@ export default function Kaffee() {
             <h3 className="text-2xl font-bold mb-3 text-coffee-accent">{coffee.name}</h3>
             <p className="coffee-description mb-4">{coffee.description}</p>
             <span className="price-tag">{coffee.price}</span>
+            
           </div>
         ))}
       </div>
