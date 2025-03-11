@@ -1,4 +1,7 @@
 /* ========== Coffee Shop Theme ========== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --coffee-darkest: #1A0F00;
