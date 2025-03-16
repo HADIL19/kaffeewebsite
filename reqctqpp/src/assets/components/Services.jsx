@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { Coffee, Users, Utensils, Gift, BookOpen, Clock } from "lucide-react";
-import './App.css';
+
+
+
+
 
 export default function Services() {
   const [services] = useState([
